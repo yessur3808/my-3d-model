@@ -1,70 +1,88 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 3d Me
 
-## Available Scripts
+ 
+This project utilizes Three.js & React to render a 3D model of me.
 
-In the project directory, you can run:
+To get a customized 3D model of me I used [Ready Player One](https://readyplayer.me/)
 
-### `npm start`
+>  [Ready Player One](https://readyplayer.me/) is a free-to-use 3D avatar creator from Wolf3D that allows anyone to create their own digital representation in a matter of minutes, no 3D modeling experience required. All you need to do is take a quick selfie then wait as the program automatically generates a custom 3D avatar based on your likeness.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To add animations I utilized **[Mixamo](https://www.mixamo.com/)**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> **[Mixamo](https://www.mixamo.com/)** is a free online service for automatically rigging and animating 3-D characters. Mixamo allows users to upload FBX, OBJ, or Zip files, and then the website attempts to automatically rig the character in under two minutes. This process works best with humanoid characters.
 
-### `npm test`
+To render the model in my React app, I used **[react-three-fiber](https://github.com/pmndrs/react-three-fiber)** a **[React renderer](https://reactjs.org/docs/codebase-overview.html#renderers)** for Threejs.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Run Locally
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clone the project
 
-### `npm run eject`
+```bash
+  git clone https://github.com/yessur3808/my-3d-model
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Go to the project directory
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+\
+(assuming you have downloaded it on your local computer / server)
+```bash
+  cd my-project
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Install dependencies
+\
+(make sure you have node installed on the device that will be running this project)
 
-## Learn More
+```bash
+  npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Start the server
 
-### Code Splitting
+```bash
+  npm start
+  (starts at http://localhost:3000/)
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To check
+\
+@ http://localhost:3000/
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## 🧰 Frameworks and libraries
+<a href="#"><img alt="React" src="https://img.shields.io/badge/React-20232a.svg?logo=react&logoColor=%2361DAFB"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 👨‍💻 Programming languages
+ <a href="https://github.com/search?q=user%3Ayessur3808+language%3Ahtml" target="_blank" rel="noopener noreferrer"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a>
+ <a href="https://github.com/search?q=user%3Ayessur3808+language%3Acss" target="_blank" rel="noopener noreferrer"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a>
+ <a href="https://github.com/search?q=user%3Ayessur3808+language%3Ajavascript" target="_blank" rel="noopener noreferrer"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black"></a>
+<a href="https://github.com/search?q=user%3Ayessur3808+language%3Amarkdown" target="_blank" rel="noopener noreferrer"><img alt="Markdown" src="https://img.shields.io/badge/Markdown-000000.svg?logo=markdown&logoColor=white"></a>
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Authors
 
-### Deployment
+- [@yaseribrahim](https://www.github.com/yessur3808)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Social
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center">	
+<a href="https://github.com/yessur3808" target="_blank">
+<img align="left"  src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+<a href="https://www.linkedin.com/in/yaser-ibrahim-57963884" target="blank" >
+  <img align="left"  src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+<a href="https://twitter.com/curlycoffee3808" target="blank" >
+    <img align="left" src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
+</a>
+<a href="mailto:yaser3808@gmail.com">
+    <img align="left"src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+</p>
