@@ -2,6 +2,7 @@
   "name": "my-3d-model",
   "version": "0.1.0",
   "main": "src/index.js",
+  "homepage": "https://yessur3808.github.io/my-3d-model",
   "dependencies": {
     "@react-three/drei": "^9.19.6",
     "@react-three/fiber": "^8.3.0",
@@ -22,7 +23,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   
   "eslintConfig": {
