@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-3d-model/static/css/main.2dc06014.css",
+    "main.js": "/my-3d-model/static/js/main.dc7a4550.js",
+    "static/media/me2.glb": "/my-3d-model/static/media/me2.f5df7fae37c2b02e2aef.glb",
+    "static/media/me.glb": "/my-3d-model/static/media/me.f1e647c6a3f6b49bbd55.glb",
+    "index.html": "/my-3d-model/index.html",
+    "main.2dc06014.css.map": "/my-3d-model/static/css/main.2dc06014.css.map",
+    "main.dc7a4550.js.map": "/my-3d-model/static/js/main.dc7a4550.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2dc06014.css",
+    "static/js/main.dc7a4550.js"
+  ]
+}
